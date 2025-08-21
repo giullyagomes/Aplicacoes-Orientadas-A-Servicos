@@ -1,0 +1,22 @@
+{
+  "name": "aplicacoes-orientadas-a-servicos",
+  "version": "1.0.0",
+  "description": "Repositório destinado a entrega de atividades da cadeira de Programação Orientada a Serviços na Faculdade Católica de Pernambuco no curso de Sistemas Para Internet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.3"
+  }
+}
